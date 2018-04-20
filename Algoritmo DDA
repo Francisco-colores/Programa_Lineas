@@ -1,0 +1,18 @@
+
+
+
+function pintar2(x1,y1,x2,y2)
+{
+
+	let m = (y2-y1)/(x2-x1)
+	let b=y1-(m*x1)
+
+
+	for (let i=x1; i < x2;i++){
+		
+		y =m*i+b;
+		point(i,y)
+	}
+
+}
+
